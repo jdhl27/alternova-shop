@@ -5,7 +5,8 @@ let total_price;
 // Show products
 $(document).ready(function(){
     $.ajax({
-        url: 'http://localhost:8080/data-productos.json',
+        // url: 'http://localhost:8080/data-productos.json', // Servidor Local
+        url: 'https://jdhl27.github.io/alternova-shop/data-productos.json', // Servidor Publico
         type: 'GET',
         dataType: 'JSON',
         success: function (data) {
