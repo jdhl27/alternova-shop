@@ -1,0 +1,106 @@
+/* Por Juan David Hdez*/
+
+:root {
+  --principal-color: #ea186d;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+.title {
+  background-color: #0b2239;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+  box-shadow: 0px 5px 6px 0px #0b2239;
+}
+
+.title img{
+  width: 200px;
+}
+
+.title h3{
+  margin: 0;
+  align-self: flex-end;
+  font-family: monospace;
+  font-size: 23px;
+  color: #f4f4f4;
+  text-shadow: 1px 1px var(--principal-color);
+}
+
+.message{ 
+  width: 185px;
+  position: sticky;
+  top: 12px;
+  left: 75px;
+  text-align: center;
+  padding: 3px 9px;
+  background-color: #ffaead;
+  border: 1px solid #f13636;
+  border-radius: 22px;
+  z-index: 1;
+  margin-top: 18px;
+  display: none;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-products{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 249px;
+  margin-left: 48px;
+  margin-top: 41px;
+}
+
+.card-title{ 
+  text-shadow: 1px 1px 1px black;
+}
+
+.card-content p{
+  font-weight: 800;
+}
+
+.btn-add{
+  border: 1px solid var(--principal-color);
+  color: var(--principal-color) !important;
+  padding: 10px;
+  border-radius: 36px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-add:hover{
+  background-color: var(--principal-color);
+  color: #fff !important;
+  transition: all 0.3s !important;
+}
+
+.container-cart{
+  width: 508px;
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 12px;
+  margin-left: 23px;
+  margin-top: 41px;
+  height: 440px;
+  position: sticky;
+  top: 17px;
+  overflow-y: overlay;
+}
+
+.container-buttons{
+  margin-top: 66px;
+}
+
